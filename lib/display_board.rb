@@ -8,3 +8,6 @@ def make_board
   puts "   |   |   "
 end
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+def display_board
