@@ -2,7 +2,9 @@
 # out the current state.
 def make_board
   puts "   |   |   "
-  puts "----------"
-  puts
-  puts
-  puts
+  puts "-----------"
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+end
+
