@@ -1,14 +1,16 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-def make_board
+board =
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
-end
+
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def display_board (board_array)
+  #start with top-left corner, and index-0 of board
+  #ex. board[0] = O, want O to be in top-left
   
